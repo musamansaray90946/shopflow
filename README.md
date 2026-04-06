@@ -3,7 +3,7 @@
 A production-quality e-commerce application with real Stripe payments, admin panel, and full shopping experience.
 
 ## Live Demo
-Coming soon
+[https://shopflow-ebon.vercel.app](https://shopflow-ebon.vercel.app)
 
 ## Features
 - Browse products with search and category filters
