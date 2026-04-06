@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { useState } from 'react'
 
-const API = 'http://localhost:5002/api'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:5002/api'
 
 export default function Cart() {
   const { cart, removeFromCart, updateQuantity, total, clearCart } = useCart()

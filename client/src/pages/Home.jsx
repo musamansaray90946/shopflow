@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import ProductCard from '../components/ProductCard'
 
-const API = 'http://localhost:5002/api'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:5002/api'
 const CATEGORIES = ['All', 'Electronics', 'Fashion', 'Home', 'Sports']
 
 export default function Home() {
